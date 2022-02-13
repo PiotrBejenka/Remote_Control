@@ -57,6 +57,6 @@ I used 3 AA batteries to power the RPi Picos (which gives a source of 4.5V) by c
 
 In project, to control the NRF24L01 modules the dedicated library where used: https://github.com/micropython/micropython/blob/master/drivers/nrf24l01/nrf24l01.py 
 
-The controller works as a master and sends a direction instruction based on the position of the yosticks, one is for Forward, Back, and the other is for Left, Right.
+The controller works as a master and sends a direction instruction based on the position of the joysticks, one is for Forward, Backward, and the other is for Left, Right turns.
 
 The platform works as a slave, receives direction instructions from the controller, and uses them to send control signals to the DC motors via the motor controller.
